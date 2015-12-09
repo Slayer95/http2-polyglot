@@ -1,0 +1,31 @@
+{
+  "name": "http2-polyglot",
+  "version": "0.0.1",
+  "description": "Serve HTTP/2, HTTPS or HTTP/1 requests over the same port",
+  "main": "index.js",
+  "dependencies": {
+    "http2": "git+https://github.com/molnarg/node-http2.git",
+    "httpolyglot": "0.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Slayer95/http2-polyglot.git"
+  },
+  "keywords": [
+    "http",
+    "https",
+    "http2",
+    "server",
+    "multiplex",
+    "polyglot"
+  ],
+  "author": "Leonardo Julca",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Slayer95/http2-polyglot/issues"
+  },
+  "homepage": "https://github.com/Slayer95/http2-polyglot#readme"
+}
